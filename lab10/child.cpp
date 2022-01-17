@@ -5,8 +5,8 @@
 using namespace std;
 
 int main (int argc, char *argv[], char *env[]) {
-  cout << "подпрограмма начала работу" << endl;
-  //printf("подпрограмма начала работу\n");
+  cout << "child начала работу" << endl;
+  //printf("child начала работу\n");
  
   for(int i = 0; i < argc; i++) {
     cout << "Аргумент:" << i << argv[i];
@@ -21,8 +21,8 @@ int main (int argc, char *argv[], char *env[]) {
   //printf("PID : %d\n", getpid());
   //printf("Parent PID : %d\n", getppid());
 
-  //printf("подпрограмма завершила работу\n");
-  cout << "подпрограмма завершила работу" << endl;
+  //printf("child завершила работу\n");
+  cout << "child завершила работу" << endl;
 
   return 5;
 }
