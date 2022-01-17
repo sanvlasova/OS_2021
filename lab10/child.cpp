@@ -5,7 +5,8 @@
 using namespace std;
 
 int main (int argc, char *argv[], char *env[]) {
-  printf("подпрограмма начала работу\n");
+  cout << "подпрограмма начала работу" << endl;
+  //printf("подпрограмма начала работу\n");
  
   for(int i = 0; i < argc; i++) {
     cout << "Аргумент:" << i << argv[i];
